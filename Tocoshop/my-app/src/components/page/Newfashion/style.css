@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.search_cart{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.search,.cart{
+    display: flex;
+    border: 1px solid #958f8f;
+    margin: 10px;
+}
+.search input{
+    border: none;
+    width: 200px;
+    height: 44px;
+    outline: none;
+    font-size: 16px;
+}
+.search .search_icon{
+    padding-inline: 10px;
+}
+ 
+.cart_icon{
+    
+    padding-inline: 20px;
+}
+.listproducts{
+    width: 100%;
+    
+}
+.listproducts_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.listproducts_main{
+    width: 100%;
+    margin-top: 20px;
+} 
+
+
+/* product */
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    min-height: 70vh;
+    padding-block: 50px;
+    margin-bottom: 20px;
+    border-block: 0.5px solid rgb(102, 99, 99);
+  }
+  .image{
+    width: 20%;
+    height: 30%;
+    color: #eee;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #9e9e9e;
+    overflow: hidden;
+  }
+  .image img{
+    display: block;
+    width: 100%;
+  }
+  .pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 5px;
+  }
+  .pagination .page-num{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #8b9090;
+  }
+  .pagination .active{
+    color: rgb(0, 0, 0);
+   
+  }
+/* product */
+
+/* footer */
+.footer{
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.footer h1{
+    padding-block: 20px;
+}
+.footer_body{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    padding-block: 20px;
+}
+.footer_body a,.footer_bottom .footer_bottom_title1 a,.footer_bottom_title2 a{
+    text-decoration: none;
+    color: white;
+}
+.footer_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.footer_bottom .footer_bottom_title1 {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
